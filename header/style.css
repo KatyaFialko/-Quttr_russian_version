@@ -1,0 +1,331 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:"Futura New","sans-serif";
+}
+body{
+    background-color: #233434;
+}
+input, button, textarea, select, option {
+    outline: none;
+}
+button{
+    background-color: transparent;
+}
+h1{
+    color: #F0EFEB;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #D8AC7A;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewMedium-Reg.eot');
+    src: url('fonts/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewMedium-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewMedium-Reg.woff') format('woff'),
+    url('fonts/FuturaNewMedium-Reg.ttf') format('truetype');
+url('FuturaNewMedium-Reg.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewBold-Reg.eot');
+    src: url('fonts/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewBold-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewBold-Reg.woff') format('woff'),
+    url('fonts/FuturaNewBold-Reg.ttf') format('truetype');
+url('fonts/FuturaNewBold-Reg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+header {
+    height: 200px;
+    background: #233434;
+    color: #D8AC7A;
+}
+.header-contact {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-contact ul {
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-contact ul li {
+    font-size: 12px;
+    border: 1px solid #F0EFEB;
+    opacity: 0.3;
+    width: 44px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0EFEB;
+}
+.header-contact ul li:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.header-phone {
+    text-decoration: none;
+    color: #D8AC7A;
+    font-size: 12px;
+    cursor: pointer;
+}
+.choose-section {
+    font-family: "Futura New", sans-serif;
+    background: #233434;
+    border: none;
+    font-size: 12px;
+    color: #F0EFEB;
+}
+.header-common {
+    width: 1320px;
+    margin: 0 auto;
+}
+.header-common-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header-social {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0;
+}
+.header-social img {
+    width: 14px;
+    height: 14px;
+}
+.header-logo {
+    width: 69px;
+    height: 84px;
+}
+.logo-contact {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 40px 0 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #D8AC7A;
+}
+.header-menu li:hover a{
+    color: white;
+
+}
+.header-menu li:hover svg path{
+    fill: white;
+}
+.header-menu li {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #D8AC7A;
+    opacity: 1;
+}
+.header-li-size {
+    width: 19px;
+    height: 19px;
+}
+.header-li_10-size {
+    width: 21px;
+    height: 19px;
+}
+.header-li_9-size {
+    width: 16px;
+    height: 19px;
+}
+.header-menu svg {
+    margin-right: 6px;
+}
+/* MENU MOBILE --------------------------------------*/
+.wrapper-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: none;
+    background: #233434;
+    z-index: 99;
+}
+.burger-menu {
+    background: #233434;
+}
+.wrapper-menu #mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.moblogo-header img {
+    width: 39px;
+    height: 39px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.header-mobphone {
+    text-decoration: none;
+    color: #D8AC7A;
+    font-size: 14px;
+}
+#check-menu {
+    display: none;
+}
+label {
+    display: block;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    line-height: 54px;
+}
+.burger-line {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 24px;
+    height: 2px;
+    background: #D8AC7A;
+    transition: 0.3s all;
+}
+.second, .third {
+    top: 25px;
+    cursor: pointer;
+}
+.fourth {
+    top: 35px;
+    cursor: pointer;
+}
+.burger-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: 0.3s all;
+}
+.burger {
+    padding-left: 55px;
+}
+.burger svg {
+    margin-right: 6px;
+}
+.burger li {
+    padding-bottom: 23px;
+}
+.burger li:hover a {
+     color: #F0EFEB;
+ }
+.burger li:hover svg path {
+    fill: #F0EFEB;
+}
+.burger-language {
+    width: 264px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger-language {
+    width: 264px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-language li {
+    font-size: 12px;
+    border: 1px solid #F0EFEB;
+    opacity: 0.3;
+    width: 57px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0EFEB;
+}
+.burger-language li:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.mobheader-social {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 55px auto 50px auto;
+}
+.mobheader-social img {
+    width: 19px;
+    height: 19px;
+}
+#check-menu:checked ~ .burger-menu {
+    max-height: 650px;
+    overflow-y: scroll;
+    font-size: 12px;
+}
+#check-menu:checked ~ .first {
+    display: none;
+}
+#check-menu:checked ~ .second {
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third {
+    transform: rotate(-45deg);
+}
+#check-menu:checked ~ .fourth {
+    display: none;
+}
+@media only screen and (max-width: 375px) {
+    header {
+        display: none;
+    }
+    .wrapper-menu {
+        display: block;
+    }
+}

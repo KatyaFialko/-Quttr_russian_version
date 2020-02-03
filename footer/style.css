@@ -1,0 +1,172 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:"Futura New","sans-serif";
+}
+body{
+    background-color: #233434;
+}
+input, button, textarea, select, option {
+    outline: none;
+}
+button{
+    background-color: transparent;
+}
+h1{
+    color: #F0EFEB;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #D8AC7A;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewMedium-Reg.eot');
+    src: url('fonts/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewMedium-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewMedium-Reg.woff') format('woff'),
+    url('fonts/FuturaNewMedium-Reg.ttf') format('truetype');
+url('FuturaNewMedium-Reg.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewBold-Reg.eot');
+    src: url('fonts/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewBold-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewBold-Reg.woff') format('woff'),
+    url('fonts/FuturaNewBold-Reg.ttf') format('truetype');
+url('fonts/FuturaNewBold-Reg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+footer {
+    height: 200px;
+    background: #233434;
+    color: #D8AC7A;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-common {
+    width: 1320px;
+    margin: 0 auto;
+}
+.f-logo {
+    width: 140px;
+}
+.footer-logo {
+    width: 85px;
+    height: 105px;
+}
+.footer-inform {
+    text-align: center;
+    font-size: 14px;
+}
+.footer-inform a:first-child {
+    border-right: 2px solid #D8AC7A;
+}
+.footer-inform a:last-child {
+    border-left: 2px solid #D8AC7A;
+}
+.footer-inform-p1 {
+    margin: 0;
+}
+.footer-inform-p2 {
+    margin: 32px 0 0 0;
+    color: #D8AC7A;
+}
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 23px 0;
+}
+.footer-social img {
+    width: 20px;
+    height: 20px;
+}
+.footer-social {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-phone {
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+}
+.footer-mail {
+    font-size: 14px;
+    width: 22px;
+    height: 17px;
+}
+.footer-phone-mail li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-phone-mail {
+    padding: 0;
+    margin: 0;
+}
+.footer-phone-mail img {
+    margin-right: 20px;
+}
+.footer-phone-mail li:first-child {
+    margin-bottom: 23px;
+}
+.common-footer {
+    width: 100%;
+    max-width: 855px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 375px) {
+    .footer {
+        margin: auto;
+        flex-direction: column;
+    }
+    .footer-common {
+        width: 0;
+        margin: auto;
+    }
+    .common-footer {
+        flex-direction: column-reverse;
+        width: 375px;
+    }
+    .footer-inform {
+        font-size: 12px;
+    }
+    .footer-contact {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .f-logo {
+        text-align: center;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:"Futura New","sans-serif";
+}
+body{
+    background-color: #233434;
+}
+input, button, textarea, select, option {
+    outline: none;
+}
+button{
+    background-color: transparent;
+}
+h1{
+    color: #F0EFEB;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #D8AC7A;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewMedium-Reg.eot');
+    src: url('fonts/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewMedium-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewMedium-Reg.woff') format('woff'),
+    url('fonts/FuturaNewMedium-Reg.ttf') format('truetype');
+url('FuturaNewMedium-Reg.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewBold-Reg.eot');
+    src: url('fonts/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewBold-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewBold-Reg.woff') format('woff'),
+    url('fonts/FuturaNewBold-Reg.ttf') format('truetype');
+url('fonts/FuturaNewBold-Reg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+/*  REDEMPTION ESTATE -------------------------------------------*/
+.redemption-estate {
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    background: url("img/estate.png") no-repeat;
+    background-size: cover;
+}
+.estate-redemption {
+    width: 100%;
+    max-width: 730px;
+    text-align: center;
+    margin-top: 67px;
+    color: #F0EFEB;
+}
+.estate-redemption h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.estate-redemption p {
+    font-size: 18px;
+    opacity: 0.45;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    line-height: 30px;
+}
+.name-estate, .phone-estate, .email-estate {
+    width: 313px;
+    height: 42px;
+    border: 1px solid rgba(240, 239, 235, 0.12);
+    background: none;
+    font-family: "Futura New", sans-serif;
+    font-size: 14px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    color: #F0EFEB;
+}
+.estate-name, .estate-phone {
+    width: 647px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.estate-name {
+    margin-bottom: 23px;
+}
+.send-estate {
+    width: 313px;
+    height: 42px;
+    border: 1px solid #D8AC7A;
+    background: none;
+    color: #D8AC7A;
+    font-family: "Futura New", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.send-estate:hover {
+    opacity: 1;
+}
+input.name-estate:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+input.phone-estate:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+input.email-estate:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+::-webkit-input-placeholder {
+    color: rgba(240, 239, 235, 0.12);
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(240, 239, 235, 0.12);
+}
+:-ms-input-placeholder {
+    color: rgba(240, 239, 235, 0.12);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(240, 239, 235, 0.12);
+}
+
+@media only screen and (max-width: 375px) {
+    .redemption-estate {
+        background-position-x: -395px;
+    }
+    .estate-redemption h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .estate-redemption p {
+        width: 325px;
+        margin: 32px auto 40px auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .estate-name, .estate-phone {
+        flex-direction: column;
+        width: 313px;
+        margin: 0 auto;
+    }
+    .email-estate {
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .send-estate {
+        margin-top: 40px;
+        opacity: 1;
+    }
+}

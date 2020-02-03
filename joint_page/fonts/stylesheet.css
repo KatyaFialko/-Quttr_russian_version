@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewMedium-Reg.eot');
+    src: url('FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewMedium-Reg.woff2') format('woff2'),
+        url('FuturaNewMedium-Reg.woff') format('woff'),
+        url('FuturaNewMedium-Reg.ttf') format('truetype');
+        url('FuturaNewMedium-Reg.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewBold-Reg.eot');
+    src: url('FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBold-Reg.woff2') format('woff2'),
+        url('FuturaNewBold-Reg.woff') format('woff'),
+        url('FuturaNewBold-Reg.ttf') format('truetype');
+        url('FuturaNewBold-Reg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+

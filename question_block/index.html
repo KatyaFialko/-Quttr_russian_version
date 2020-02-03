@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="question.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Question</title>
+</head>
+<body>
+
+<section class="form">
+    <form class="question-form">
+        <h2> остались вопросы? </h2>
+        <p class="text-form"> Оставьте заявку, и наши менеджеры свяжутся с Вами, когда Вам будет удобно. </p>
+        <div class="name-phone">
+            <input  required type="text" placeholder="Имя" class="name">
+            <input  required type="text" placeholder="Телефон" class="phone">
+        </div>
+        <div class="textarea"><textarea name="" placeholder="Оставьте комментарий" class="comment"></textarea></div>
+        <div class="convenient-send">
+            <div id="wrapper" class="wrapper">
+                <span name="user" class="convenient" id="convenient">Когда удобно?</span>
+                <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow" id="arrow"></a>
+                <ul class="dropdown" tabindex="1">
+                    <li><a href="#">Сейчас</a></li>
+                    <li><a href="#">10:00 - 13:00</a></li>
+                    <li><a href="#">13:00 - 16:00</a></li>
+                    <li><a href="#">16:00 - 20:00</a></li>
+                </ul>
+            </div>
+            <button type="submit" class="send"> Отправить </button>
+        </div>
+    </form>
+</section>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

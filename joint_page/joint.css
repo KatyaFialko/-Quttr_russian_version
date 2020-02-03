@@ -1,0 +1,238 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:"Futura New","sans-serif";
+}
+body{
+    background-color: #233434;
+}
+input, button, textarea, select, option {
+    outline: none;
+}
+button{
+    background-color: transparent;
+}
+h1{
+    color: #F0EFEB;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: #F0EFEB;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #D8AC7A;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewMedium-Reg.eot');
+    src: url('fonts/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewMedium-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewMedium-Reg.woff') format('woff'),
+    url('fonts/FuturaNewMedium-Reg.ttf') format('truetype');
+url('FuturaNewMedium-Reg.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura New';
+    src: local("Futura New");
+    src: url('fonts/FuturaNewBold-Reg.eot');
+    src: url('fonts/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaNewBold-Reg.woff2') format('woff2'),
+    url('fonts/FuturaNewBold-Reg.woff') format('woff'),
+    url('fonts/FuturaNewBold-Reg.ttf') format('truetype');
+url('fonts/FuturaNewBold-Reg.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* JOINT MANAGEMENT STYLES*/
+.management-block1 {
+    height: 406px;
+    display: flex;
+    justify-content: center;
+    background: url("img/management.png") no-repeat;
+    background-size: cover;
+}
+.management {
+    width: 910px;
+    text-align: center;
+    margin-top: 74px;
+    color: #F0EFEB;
+}
+.management h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.management p {
+    opacity: 0.45;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 40px 0 60px 0;
+}
+.send-management1 {
+    color: #D8AC7A;
+    border: 1px solid #D8AC7A;
+    background: none;
+    cursor: pointer;
+    width: 168px;
+    height: 42px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.send-management1:hover, .send-management2:hover {
+    opacity: 1;
+}
+.management-block2 {
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    background: #293A3A;
+}
+.management-block3 {
+    margin-top: 60px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    background: #293A3A;
+}
+.owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 752px;
+    text-align: center;
+    margin-top: 95px;
+    color: #F0EFEB;
+}
+.owner h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.owner p {
+    opacity: 0.45;
+    font-size: 14px;
+    margin: 35px 0 60px 0;
+}
+.name-management, .email-management, .phone-management {
+    width: 313px;
+    height: 42px;
+    border: 1px solid rgba(240, 239, 235, 0.12);
+    background: none;
+    font-size: 14px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    color: #F0EFEB;
+}
+.send-management2 {
+    width: 313px;
+    height: 42px;
+    border: 1px solid #D8AC7A;
+    background: none;
+    color: #D8AC7A;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.management-name, .management-phone {
+    width: 647px;
+    display: flex;
+    justify-content: space-between;
+}
+.management-phone {
+    margin-top: 22px;
+}
+input.name-management:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+input.email-management:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+input.phone-management:focus {
+    border: 1px solid rgba(240, 239, 235, 0.45);
+}
+::-webkit-input-placeholder {
+    color: rgba(240, 239, 235, 0.12);
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(240, 239, 235, 0.12);
+}
+:-ms-input-placeholder {
+    color: rgba(240, 239, 235, 0.12);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(240, 239, 235, 0.12);
+}
+
+
+@media only screen and (max-width: 375px) {
+    .management-block1 {
+        height: 100%;
+        background-position-x: -675px;
+    }
+    .management-block2 {
+        height: 530px;
+    }
+    .management-block3 {
+        height: 515px;
+    }
+    .management {
+        margin-top: 50px;
+    }
+    .management h1 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .management p {
+        width: 335px;
+        margin: 25px auto 0 auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .send-management1 {
+        opacity: 1;
+        width: 249px;
+    }
+    .owner {
+        margin-top: 40px;
+    }
+    .owner h2 {
+        font-size: 14px;
+    }
+    .owner p {
+        width: 350px;
+        margin: 30px 0 40px 0;
+    }
+    .management-name, .management-phone {
+        flex-direction: column;
+        width: 313px;
+        margin: 0 auto;
+    }
+    .email-management {
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .send-management1, .send-management2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        opacity: 1;
+    }
+    .management-block3 {
+        margin-top: 30px;
+    }
+}
