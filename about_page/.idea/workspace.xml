@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4839376-79b3-4f73-aaad-b11e56815da4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Wr9SsUNJW7E6Wq8fygKvci2bg5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4839376-79b3-4f73-aaad-b11e56815da4" name="Default Changelist" comment="" />
+      <created>1579896849772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579896849772</updated>
+      <workItem from="1579896854434" duration="12000" />
+      <workItem from="1579896869250" duration="7531000" />
+      <workItem from="1579911231182" duration="10000" />
+      <workItem from="1579911334505" duration="71000" />
+      <workItem from="1579990925333" duration="17000" />
+      <workItem from="1580075383949" duration="2244000" />
+      <workItem from="1580298554864" duration="375000" />
+      <workItem from="1580384406245" duration="29000" />
+      <workItem from="1580385105653" duration="421000" />
+      <workItem from="1580400571341" duration="4000" />
+      <workItem from="1580502561888" duration="3382000" />
+      <workItem from="1580543466087" duration="1881000" />
+      <workItem from="1580547997043" duration="655000" />
+      <workItem from="1580672032870" duration="418000" />
+      <workItem from="1580673933613" duration="312000" />
+      <workItem from="1580674314206" duration="890000" />
+      <workItem from="1580675392126" duration="68000" />
+      <workItem from="1580749773435" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1580543488286">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1580543488286" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1580675400854">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1580675400854" />
+  </component>
+</project>

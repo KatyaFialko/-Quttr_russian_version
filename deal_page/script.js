@@ -1,0 +1,93 @@
+// Slide3
+$(".sl3").slick({
+    cssEasy: 'easy-in',
+    slidesToScroll: 1,
+    centerMode: true,
+    arrows:false,
+    variableWidth: true,
+    arrows: true,
+    prevArrow: '.slide3_prev',
+    nextArrow: '.slide3_next',
+    speed: 800,
+    responsive: [
+        {
+            breakpoint: 400,
+            settings: {
+                dots: true,
+                arrows:false
+            }
+        }
+    ]
+});
+// SLIDER ---------------------------------------
+function DropDown(el) {
+    this.wrapper = el;
+    this.placeholder = this.wrapper.children('span');
+    this.opts = this.wrapper.find('ul.dropdown > li');
+    this.val = '';
+    this.index = -1;
+    this.initEvents();
+}
+DropDown.prototype = {
+    initEvents : function() {
+        let obj = this;
+
+        obj.wrapper.on('click', function(event){
+            $(this).toggleClass('active');
+            return false;
+        });
+
+        obj.opts.on('click',function(){
+            let opt = $(this);
+            obj.val = opt.text();
+            obj.index = opt.index();
+            obj.placeholder.text(obj.val);
+        });
+    },
+    getValue : function() {
+        return this.val;
+    },
+    getIndex : function() {
+        return this.index;
+    }
+};
+
+$(function() {
+
+    let wrapper = new DropDown( $('#wrapper') );
+
+    $(document).click(function() {
+        $('.wrapper').removeClass('active');
+    });
+});
+
+let convenient = document.getElementById('convenient');
+let arrow = document.getElementById('arrow');
+
+convenient.addEventListener('click', function () {
+    convenient.style.opacity = '1';
+    arrow.classList.toggle('rotate');
+});
+arrow.addEventListener('click', function () {
+    convenient.style.opacity = '1';
+    arrow.classList.toggle('rotate');
+});
+// MODAL WINDOW -----------------------------
+// open with button
+$('.deal-a').click(function () {
+    $('main').css('filter', 'blur(7px)');
+    $('.overlay-deal').fadeIn();
+    $('.overlay-deal').addClass('disabled');
+});
+// close with button
+$('.deal-close').click(function () {
+    $('.overlay-deal').fadeOut();
+    $('main').css('filter', 'none');
+});
+
+
+
+
+
+
+
