@@ -214,9 +214,13 @@ span.convenient:focus {
 }
 @media only screen and (max-width: 375px) {
     .form {
+        width: 100%;
         height: 641px;
         background-position-x: -970px;
         padding-top: 45px;
+    }
+    .question-form {
+        width: 375px;
     }
     .form h2 {
         font-size: 18px;
