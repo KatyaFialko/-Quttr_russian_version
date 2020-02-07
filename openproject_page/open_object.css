@@ -63,7 +63,6 @@ url('fonts/FuturaNewBold-Reg.otf') format('opentype');
 /*Section One*/
 .section-one{
     width: 100%;
-    max-width: 1440px;
     height: 883px;
     margin: 0 auto;
     background-image:linear-gradient(261.94deg, rgba(35, 52, 52, 0.93) 2.51%, #233434 66.4%), url("img/back-section1.png");
@@ -220,7 +219,7 @@ url('fonts/FuturaNewBold-Reg.otf') format('opentype');
 }
 .wrapper{
     position: relative;
-    width: 313px;
+    width: 212px;
     height: 42px;
     border: 1px solid #D8AC7A;
     display: flex;
@@ -240,9 +239,8 @@ url('fonts/FuturaNewBold-Reg.otf') format('opentype');
 .wrapper .dropdown {
     position: absolute;
     top: 100%;
-    right: 0;
-    left: -1px;
-    width: 279px;
+    right: -1px;
+    width: 178px;
     list-style: none;
     opacity: 0;
     pointer-events: none;
@@ -280,7 +278,11 @@ url('fonts/FuturaNewBold-Reg.otf') format('opentype');
     margin-top: 7px;
 }
 .arrow-img{
-    padding-right: 20px;
+    padding-right: 11px;
+}
+.arrow-img img {
+    width: 18px;
+    height: 11px;
 }
 .box2-middle{
     height: 411px;

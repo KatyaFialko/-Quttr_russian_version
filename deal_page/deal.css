@@ -584,7 +584,7 @@ span.convenient:focus {
 @media only screen and (max-width: 375px) {
     .deal-block1 {
         height: 265px;
-        background-position-x: -267px;
+        background-position-x: -220px;
         background-position-y: 0;
     }
     .deal-mobile {
@@ -765,7 +765,7 @@ span.convenient:focus {
     .slick-dots{
         position: absolute;
         bottom: 50px;
-        right: 10px;
+        /*right: 10px;*/
     }
     .slick-dots li button:before {
         position: relative;
@@ -787,6 +787,7 @@ span.convenient:focus {
     }
     .slide3_button{
         opacity: 1;
+        margin-bottom: 40px;
     }
     .city {
         right: 15px;

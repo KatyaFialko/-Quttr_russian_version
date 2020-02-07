@@ -559,6 +559,8 @@ a{
 }
 .left-bottom-right-more{
     color:#F0EFEB;
+}
+.left-bottom-right-more ul li {
     opacity: 0.45;
 }
 /*Hiw More Details 2----------------------------------------------------------------*/
