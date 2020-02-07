@@ -373,6 +373,9 @@ $('.btn').click(function () {
         }
     });
 });
+$('.button-more').click(function () {
+    $(".apartments4").fadeToggle(400);
+});
 // MODAL WINDOW -----------------------------
 // open with button
 $('.modal-btn').click(function () {

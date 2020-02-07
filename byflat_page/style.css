@@ -149,10 +149,17 @@ a {
 }
 
 /* Apartaments */
-.apartments {
+.apartments1,
+.apartments2,
+.apartments3,
+.apartments4 {
   background-color: #233434;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.apartments4 {
+  display: none;
 }
 
 .flats {
@@ -1088,8 +1095,6 @@ html .ui-button.ui-state-disabled:active {
   top: -2px;
   margin-left: 0px;
 }
-
-/* Slider-range1 */
 /* MODAL WINDOW ----------------------------- */
 .overlay-suggest {
   width: 100%;
@@ -1205,6 +1210,8 @@ html .ui-button.ui-state-disabled:active {
   cursor: pointer;
 }
 
+/* Slider-range1 */
+
 @media only screen and (max-width: 375px) {
   .contact-offer {
     background-image: none;
@@ -1241,9 +1248,16 @@ html .ui-button.ui-state-disabled:active {
     width: 375px;
   }
 
-  .apartments {
+  .apartments1,
+  .apartments2,
+  .apartments3,
+  .apartments4 {
     display: flex;
     position: relative;
+  }
+
+  .apartments4 {
+    display: none;
   }
 
   .avaliable-top-txt {
