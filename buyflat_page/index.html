@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href='slick-1.8.1/slick/slick.css'>
+    <link rel="stylesheet" type="text/css" href='slick-1.8.1/slick/slick-theme.css'>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quattr Group</title>
+
+</head>
+
+<body>
+<main>
+    <section class='contact-offer'>
+        <div class='buttons_con_off'>
+            <button class="button-contact modal-btn" href='#'>Связаться</button>
+            <button class="button-offer" href='#'>Предложить свой объект</button>
+        </div>
+    </section>
+    <section class='flat-parameters'>
+        <div class='parameters'>
+            <div class='parameter-price'>
+                <p>Стоимость</p>
+                <div class="slider-flats1">
+                    <p>
+                        <label for="amount" class='from'>от</label>
+                        <input type="text" id="amount" class='left-box'>
+                        <label for="amount" class='before'>до</label>
+                        <input type="text" id="amount_1" class='right-box'>
+                    </p>
+                    <div id="slider-range" class='slider-range'></div>
+                </div>
+                <div id="wrapper4" class="wrapper4">
+                    <span name="user" class="convenient" id="convenient">Окупаемость</span>
+                    <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow"
+                            id="arrow"></a>
+                    <ul class="dropdown" tabindex="1">
+                        <li><a href="#">Сейчас</a></li>
+                        <li><a href="#">10:00 - 13:00</a></li>
+                        <li><a href="#">13:00 - 16:00</a></li>
+                        <li><a href="#">16:00 - 20:00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class='parameter-revenue' id="parameter">
+                <p>Доход в месяц</p>
+                <div class="slider-flats2">
+                    <p>
+                        <label for="amount" class='from'>от</label>
+                        <input type="text" id="amount1" class='left-box'>
+                        <label for="amount" class='before'>до</label>
+                        <input type="text" id="amount_2" class='right-box'>
+                    </p>
+                    <div id="slider-range1" class='slider-range1'></div>
+                </div>
+            </div>
+            <div class='parameter-payback' id="parameter">
+                <p>Окупаемость</p>
+                <div class="slider-flats3">
+                    <p>
+                        <label for="amount" class='from'>от</label>
+                        <input type="text" id="amount2" class='left-box'>
+                        <label for="amount" class='before'>до</label>
+                        <input type="text" id="amount_3" class='right-box'>
+                    </p>
+                    <div id="slider-range2" class='slider-range2'></div>
+                </div>
+            </div>
+    </section>
+    <!-- Wrappers -->
+    <section class="wrappers">
+        <div class="wrappers-parameters">
+            <div id="wrapper1" class="wrapper1">
+                <span name="user" class="convenient" id="convenient">Тип целевого назначения</span>
+                <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow"
+                        id="arrow"></a>
+                <ul class="dropdown" tabindex="1">
+                    <li><a href="#">Сейчас</a></li>
+                    <li><a href="#">10:00 - 13:00</a></li>
+                    <li><a href="#">13:00 - 16:00</a></li>
+                    <li><a href="#">16:00 - 20:00</a></li>
+                </ul>
+            </div>
+            <div id="wrapper2" class="wrapper2">
+                <span name="user" class="convenient" id="convenient">Стадия строительства</span>
+                <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow"
+                        id="arrow"></a>
+                <ul class="dropdown" tabindex="1">
+                    <li><a href="#">Сейчас</a></li>
+                    <li><a href="#">10:00 - 13:00</a></li>
+                    <li><a href="#">13:00 - 16:00</a></li>
+                    <li><a href="#">16:00 - 20:00</a></li>
+                </ul>
+            </div>
+            <div id="wrapper3" class="wrapper3">
+                <span name="user" class="convenient" id="convenient">Окупаемость</span>
+                <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow"
+                        id="arrow"></a>
+                <ul class="dropdown" tabindex="1">
+                    <li><a href="#">Сейчас</a></li>
+                    <li><a href="#">10:00 - 13:00</a></li>
+                    <li><a href="#">13:00 - 16:00</a></li>
+                    <li><a href="#">16:00 - 20:00</a></li>
+                </ul>
+            </div>
+    </section>
+    <div class="add-filters" id="add-filters">
+        <button class="btn">Дополнительные фильтры
+            <img class="arrow-add" src="/img/arrow-add.svg">
+        </button>
+    </div>
+    <section class='apartments'>
+        <div class='flats'>
+            <div class='flat1'>
+                <div class='prev1'></div>
+                <div class='next1'></div>
+                <div class='living-room1'>
+                    <div class='room1'></div>
+                    <div class='room1'></div>
+                    <div class='room1'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='flat2'>
+                <div class='prev2'></div>
+                <div class='next2'></div>
+                <div class='living-room2'>
+                    <div class='room2'></div>
+                    <div class='room2'></div>
+                    <div class='room2'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class='apartments'>
+        <div class='flats'>
+            <div class='flat3'>
+                <div class='prev3'></div>
+                <div class='next3'></div>
+                <div class='living-room3'>
+                    <div class='room3'></div>
+                    <div class='room3'></div>
+                    <div class='room3'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class='flat4'>
+                <div class='prev4'></div>
+                <div class='next4'></div>
+                <div class='living-room4'>
+                    <div class='room4'></div>
+                    <div class='room4'></div>
+                    <div class='room4'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class='apartments'>
+        <div class='flats'>
+            <div class='flat5'>
+                <div class='prev5'></div>
+                <div class='next5'></div>
+                <div class='living-room5'>
+                    <div class='room5'></div>
+                    <div class='room5'></div>
+                    <div class='room5'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class='flat6'>
+                <div class='prev6'></div>
+                <div class='next6'></div>
+                <div class='living-room6'>
+                    <div class='room6'></div>
+                    <div class='room6'></div>
+                    <div class='room6'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class='apartments'>
+        <div class='flats'>
+            <div class='flat7'>
+                <div class='prev7'></div>
+                <div class='next7'></div>
+                <div class='living-room7'>
+                    <div class='room7'></div>
+                    <div class='room7'></div>
+                    <div class='room7'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class='flat8'>
+                <div class='prev8'></div>
+                <div class='next8'></div>
+                <div class='living-room8'>
+                    <div class='room8'></div>
+                    <div class='room8'></div>
+                    <div class='room8'></div>
+                </div>
+                <div class='all-text'>
+                    <div class='month-years'>
+                        <div class='month-520'>
+                            <p>$ 520 / мес</p>
+                        </div>
+                        <div class='star'></div>
+                        <div class='years-8'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='flat-address-city'>
+                        <div class='flat-address'>
+                            <p>3 к квартира<br>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                        </div>
+                        <div class='flat-city'>
+                            <p>г. Киев</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Капиталовложение</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>$150 000</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Доход</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>520/мес</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Окупаемость</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>8 лет</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Целевое</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Жилой фонд</p>
+                        </div>
+                    </div>
+                    <div class='grey-text'>
+                        <div class='grey-text-left'>
+                            <p>Стадия</p>
+                        </div>
+                        <div class='grey-text-right'>
+                            <p>Котлован</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class='more'>
+        <button class='button-more' href='#'>Ещё...</button>
+    </section>
+    <section class="available-objects">
+        <p class="avaliable-top-txt">Доступные объекты</p>
+        <div class="prev"></div>
+        <div class="slider-pro">
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="img-build"></div>
+                <div class="available-gradient">
+                    <div class="description-one">
+                        <p>$ 520 / мес</p>
+                        <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M7.18613 0.774127C7.49414 -0.128685 8.771 -0.128687 9.079 0.774124L10.259 4.23272C10.3971 4.63765 10.7776 4.90983 11.2054 4.90983H14.916C15.8965 4.90983 16.2913 6.17425 15.485 6.73216L12.5684 8.75034C12.2007 9.00477 12.0465 9.47237 12.1909 9.89556L13.3246 13.2184C13.636 14.1312 12.6022 14.9124 11.8091 14.3636L8.70158 12.2134C8.35922 11.9765 7.90592 11.9765 7.56356 12.2134L4.45601 14.3636C3.66291 14.9124 2.62915 14.1312 2.94057 13.2184L4.07421 9.89556C4.21859 9.47237 4.06448 9.00477 3.69678 8.75034L0.780112 6.73216C-0.026181 6.17425 0.368624 4.90983 1.34912 4.90983H5.05974C5.48758 4.90983 5.86803 4.63765 6.00618 4.23272L7.18613 0.774127Z"
+                                        fill="#386060" />
+                                </svg></span>8 лет</p>
+                    </div>
+                    <div class="description-two">
+                        <p>3 к квартира</p>
+                        <p>г. Киев</p>
+                    </div>
+                    <p>ул. Рейтарской 74 ЖК Девпорт, 67 кв.м</p>
+                </div>
+            </div>
+        </div>
+        <div class="next"></div>
+        <button class="button-available">Смотреть больше</button>
+    </section>
+</main>
+<div class="overlay-suggest">
+    <div class="modal-suggest">
+        <div class="suggest-window">
+            <div class="suggest-close">
+                <img src="img/modal-close.png" alt="">
+            </div>
+            <h2>ОСТАВЬТЕ ЗАЯВКУ И НАШИ АГЕНТЫ СВЯЖУТЬСЯ С ВАМИ</h2>
+            <input type="text" placeholder="Имя" class="modal-input">
+            <input type="text" placeholder="Email или телефон" class="modal-input">
+            <button class="modal-send">Отправить</button>
+            <div class="contact-modal">
+                <p>СВЯЗАТЬСЯ ЧЕРЕЗ</p>
+                <ul class="contact-social">
+                    <li><a href="#"><img src="img/messagefacebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/telegram.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/watsapp.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
