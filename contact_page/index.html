@@ -37,18 +37,27 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5100804765852!2d30.473338404582268!3d50.45022555958996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce86da083c6b%3A0xa73a96d120720b9a!2z0YPQuy4g0KHRgtCw0YDQvtC60LjQtdCy0YHQutCw0Y8sIDEw0JMsINCa0LjQtdCyLCDQo9C60YDQsNC40L3QsCwgMDQ2NTU!5e0!3m2!1sru!2sil!4v1579623487456!5m2!1sru!2sil" width="100%" height="222" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <div class="contact-block3">
-        <form class="contact-form">
+        <form class="question-form">
             <h2> готовы связаться с вами </h2>
-            <p class="contact-text"> Оставьте заявку, и наши менеджеры свяжутся с Вами, когда Вам будет удобно. </p>
-            <div class="name-contact">
-                <input  required type="text" placeholder="Имя" class="contact-name">
-                <input  required type="text" placeholder="Телефон" class="contact-phone">
+            <p class="text-form"> Оставьте заявку, и наши менеджеры свяжутся с Вами, когда Вам будет удобно. </p>
+            <div class="name-phone">
+                <input required type="text" placeholder="Имя" class="name">
+                <div class="wrapper">
+                    <div class="border-input" id="border-input">
+                        <div class="phone-number" id="phone-number">+</div>
+                        <input required type="text" placeholder="Телефон" class="phone">
+                        <a href="#" class="arrow-img">
+                            <img src="img/question_arrow_open.png" alt="" class="arrow" id="arrow-phone">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="textarea"><textarea name="" placeholder="Оставьте комментарий" class="contact-comment"></textarea></div>
-            <div class="convenient-contact">
+            <div class="textarea"><textarea name="" placeholder="Оставьте комментарий" class="comment"></textarea></div>
+            <div class="convenient-send">
                 <div id="wrapper" class="wrapper">
                     <span name="user" class="convenient" id="convenient">Когда удобно?</span>
-                    <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow" id="arrow"></a>
+                    <a href="#" class="arrow-img"><img src="img/question_arrow_open.png" alt="" class="arrow"
+                                                       id="arrow"></a>
                     <ul class="dropdown" tabindex="1">
                         <li><a href="#">Сейчас</a></li>
                         <li><a href="#">10:00 - 13:00</a></li>
@@ -56,7 +65,7 @@
                         <li><a href="#">16:00 - 20:00</a></li>
                     </ul>
                 </div>
-                <button type="submit" class="contact-send"> Отправить </button>
+                <button type="submit" class="send"> Отправить </button>
             </div>
         </form>
     </div>

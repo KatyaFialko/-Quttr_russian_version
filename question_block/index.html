@@ -14,7 +14,15 @@
         <p class="text-form"> Оставьте заявку, и наши менеджеры свяжутся с Вами, когда Вам будет удобно. </p>
         <div class="name-phone">
             <input  required type="text" placeholder="Имя" class="name">
-            <input  required type="text" placeholder="Телефон" class="phone">
+            <div class="wrapper">
+                <div class="border-input" id="border-input">
+                    <div class="phone-number" id="phone-number">+</div>
+                    <input required type="text" placeholder="Телефон" class="phone">
+                    <a href="#" class="arrow-img">
+                        <img src="img/question_arrow_open.png" alt="" class="arrow" id="arrow-phone">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="textarea"><textarea name="" placeholder="Оставьте комментарий" class="comment"></textarea></div>
         <div class="convenient-send">

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdeb2fe7-c9fa-49b8-86fd-62c86cadb42e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../contact_page/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/estate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/estate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joint_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../joint_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../joint_page/joint.css" beforeDir="false" afterPath="$PROJECT_DIR$/../joint_page/joint.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../main_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_page/main-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../main_page/main-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_page/main-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/../main_page/main-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/question.css" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/question.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mobile/question_arrow_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XWh1ZfoQrSedomuKD7aEtCCRD1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdeb2fe7-c9fa-49b8-86fd-62c86cadb42e" name="Default Changelist" comment="" />
+      <created>1581167543640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581167543640</updated>
+      <workItem from="1581167544766" duration="276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

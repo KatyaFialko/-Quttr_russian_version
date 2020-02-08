@@ -16,12 +16,22 @@
         <input required type="text" placeholder="Имя" class="name-estate">
         <input required type="text" placeholder="Email" class="email-estate">
     </div>
-    <div class="estate-phone">
-        <input required type="text" placeholder="Телефон" class="phone-estate">
-        <button type="submit" class="send-estate"> Оставить заявку </button>
-    </div>
+        <div class="name-phone">
+            <div class="wrapper">
+                <div class="border-input" id="border-input">
+                    <div class="phone-number" id="phone-number">+</div>
+                    <input required type="text" placeholder="Телефон" class="phone">
+                    <a href="#" class="arrow-img">
+                        <img src="img/question_arrow_open.png" alt="" class="arrow" id="arrow-phone">
+                    </a>
+                </div>
+            </div>
+        <button type="submit" class="send">Оставить заявку</button>
+        </div>
     </form>
 </section>
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
